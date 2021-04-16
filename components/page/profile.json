@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_profiles",
+  "info": {
+    "name": "profile",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-links"
+    },
+    "role": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "gamer_pages",
+  "info": {
+    "name": "GamerPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "profile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.profile"
+    }
+  }
+}
