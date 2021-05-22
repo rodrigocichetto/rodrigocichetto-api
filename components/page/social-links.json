@@ -2,21 +2,22 @@
   "collectionName": "components_page_social_links",
   "info": {
     "name": "socialLinks",
-    "icon": "share-alt"
+    "icon": "share-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "icon": {
       "type": "enumeration",
       "enum": [
-        "Github",
-        "Linkedin",
-        "Twitter",
-        "Medium",
-        "Instagram",
-        "Steam",
-        "Gamersclub",
-        "Twitch"
+        "github",
+        "linkedin",
+        "twitter",
+        "medium",
+        "instagram",
+        "steam",
+        "cs",
+        "twitch"
       ],
       "required": true
     },
